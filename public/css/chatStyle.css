@@ -1,15 +1,15 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
 
-body::-webkit-scrollbar {
+.chat-messages::-webkit-scrollbar {
   width: 12px;
 }
 
-body::-webkit-scrollbar-track {
+.chat-messages::-webkit-scrollbar-track {
   -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
   border-radius: 10px;
 }
 
-body::-webkit-scrollbar-thumb {
+.chat-messages::-webkit-scrollbar-thumb {
   border-radius: 10px;
   -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
 }
@@ -104,7 +104,7 @@ a {
   padding: 30px;
   max-height: 500px;
   width: 95%;
-  overflow-y: scroll;
+  overflow-y: auto;
 }
 
 .chat-messages .message {
