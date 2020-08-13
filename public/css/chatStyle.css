@@ -46,7 +46,7 @@ a {
   border-radius: 10px;
   background: #ffffff;
   height: 2rem;
-  color: #ffa36c
+  color: #ffa36c;
 }
 
 .btn-join {
@@ -82,14 +82,19 @@ a {
 
 .chat-main {
   display: grid;
-  height: 75vh;
+  height: 70vh;
   grid-template-columns: 3fr 1fr;
 }
 
 .chat-messages {
   padding: 30px;
   max-height: 500px;
-  width: auto;
+  width: 95%;
+  overflow-y: scroll;
+}
+
+.chat-messages::-webkit-scrollbar {
+  display: none;
 }
 
 .chat-messages .message {
