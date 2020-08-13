@@ -33,9 +33,31 @@ a {
   cursor: pointer;
   padding: 5px 15px;
   background: var(--light-color);
-  color: #000000;
   border: 0;
   font-size: 17px;
+}
+
+.btn-send {
+  background: #ffffff;
+  color: #ffa36c;
+}
+
+.btn-leave {
+  border-radius: 10px;
+  background: #ffffff;
+  height: 2rem;
+  color: #ffa36c
+}
+
+.btn-join {
+  background: #ffffff;
+  height: 2em;
+  color: #ffa36c;
+  font-weight: 600;
+}
+
+.header {
+  font-weight: 600;
 }
 
 /* Chat Page */

@@ -11,7 +11,7 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="../css/style.css" />
-    <title>ChatCord App</title>
+    <title>Airona</title>
   </head>
   <body>
     <div class="join-container">
@@ -23,7 +23,7 @@
       <main class="join-main">
         <form action="chat.html">
           <div class="form-control">
-            <label for="username">Username</label>
+            <label for="username" class="header">Seat Number</label>
             <input
               type="text"
               name="username"
@@ -32,18 +32,19 @@
               required
             />
           </div>
+          <label for="room" class="header">
+            Code
+          </label>
           <div class="form-control">
-            <label for="room">Room</label>
-            <select name="room" id="room">
-              <option value="JavaScript">Flight 1</option>
-              <option value="Python">Flight 2</option>
-              <option value="PHP">Flight 3</option>
-              <option value="C#">Flight 4</option>
-              <option value="Ruby">Flight 5</option>
-              <option value="Java">Flight 6</option>
-            </select>
+            <input
+              type="text"
+              name="room"
+              id="room"
+              placeholder="Enter your Code"
+              required
+            />
           </div>
-          <button type="submit" class="btn">Join Chat</button>
+          <button type="submit" class="btn btn-join">Join Chat</button>
         </form>
       </main>
     </div>

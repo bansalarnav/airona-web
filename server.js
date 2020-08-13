@@ -16,7 +16,7 @@ const io = socketio(server);
 
 app.use(express.static(path.join(__dirname, "public")));
 
-const botName = "ChatCord Bot";
+const botName = "Airona Bot";
 
 io.on("connection", (socket) => {
   socket.on("joinRoom", ({ username, room }) => {
@@ -24,7 +24,7 @@ io.on("connection", (socket) => {
 
     socket.join(user.room);
 
-    socket.emit("message", formatMessage(botName, "Welcome to ChatCord!"));
+    socket.emit("message", formatMessage(botName, "Welcome to Airona!"));
 
     socket.broadcast
       .to(user.room)
