@@ -93,10 +93,6 @@ a {
   overflow-y: scroll;
 }
 
-.chat-messages::-webkit-scrollbar {
-  visibility: hidden;
-}
-
 .chat-messages .message {
   padding: 10px;
   width: auto;
