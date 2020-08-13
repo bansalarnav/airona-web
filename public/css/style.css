@@ -552,3 +552,8 @@ input[type="submit"]:active {
   font-family: "Inter", sans-serif;
   font-size: 20px;
 }
+
+label {
+  text-align: center;
+  margin-top: 10px;
+}
