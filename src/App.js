@@ -2,13 +2,14 @@ import React from 'react';
 import './styles.css';
 import Navbar from "./Components/Navbar"
 import Main from "./Components/Main"
+import Home from './Components/home'
 
 function App() {
   return (
-    <div className="App">
-      <div className="section1">
+    <div >
+      <div >
         <Navbar />
-        <Main />
+        <Home />
       </div>
     </div>
   );
