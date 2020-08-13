@@ -89,6 +89,7 @@ a {
 .chat-messages {
   padding: 30px;
   max-height: 500px;
+  width: auto;
 }
 
 .chat-messages .message {
