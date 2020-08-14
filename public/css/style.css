@@ -555,6 +555,7 @@ input[type="submit"]:active {
   text-align: center;
   font-family: "Inter", sans-serif;
   font-size: 20px;
+  margin-top: 10px;
 }
 
 label {
