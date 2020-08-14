@@ -16,4 +16,5 @@ https://drive.google.com/file/d/1Smrsv5bOIv6EeTCR5ldFfyuJcFET_z75/view?usp=shari
 
 ### Demo Video
 
-https://youtu.be/KuJVAV7jTnU
+Demo Video for Web Application:  https://youtu.be/uoMw3mpPtrY
+Demo Video for Mobile Application:  https://youtu.be/KuJVAV7jTnU
