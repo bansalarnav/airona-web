@@ -522,6 +522,9 @@ input[type="checkbox"]:checked + .toggle {
 
 .btn-join {
   margin-left: 20%;
+  padding: 10px;
+  font-family: 'Inter', sans-serif;
+  color: #ffa36c;
 }
 
 .shadow {
