@@ -550,7 +550,7 @@ input[type="submit"]:active {
 }
 
 .header {
-  padding: 0;
+  padding: 10px;
   margin-left: 16%;
   text-align: center;
   font-family: "Inter", sans-serif;
