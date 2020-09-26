@@ -20,5 +20,5 @@ https://youtu.be/KuJVAV7jTnU
 
 ### Demos
 
-Demo Video for Web Application:  https://youtu.be/uoMw3mpPtrY \n
+Demo Video for Web Application:  https://youtu.be/uoMw3mpPtrY <br/>
 Demo Video for Mobile Application:  https://youtu.be/KuJVAV7jTnU
